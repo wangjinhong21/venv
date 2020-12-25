@@ -10,4 +10,4 @@ class Testbaidu():
 
     def test_baidu(self):
         self.driver.get("https://www.baidu.com/")
-        print("111345")
+        print("1113445")
