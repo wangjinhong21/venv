@@ -36,7 +36,7 @@ class Test_weixin():
         self.driver.get('https://work.weixin.qq.com/wework_admin/frame')
         self.driver.find_element_by_id("menu_contacts").click()
         sleep(5)
-
+        db.close()
 
 
 
