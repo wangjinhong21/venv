@@ -28,7 +28,7 @@ class Test_open1():
         self.driver.find_element_by_id("com.chuangshen.jifan:id/editText").send_keys("衣服")
         self.driver.find_element_by_id("com.chuangshen.jifan:id/rb_tb").click()
         time.sleep(5)
-    # def test_scroll_find_element(self):   #筛选，这里的滚动查找没成功
+    # def test_scroll_find_element(self):   #筛选，这里的滚动查找没成功1
         self.driver.find_element_by_android_uiautomator('new UiSelector().text("销量")').click()
         time.sleep(5)
         # self.driver.find_element_by_android_uiautomator('new UiScrollable(new UiSelector().'
